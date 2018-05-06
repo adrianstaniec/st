@@ -5,7 +5,15 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+
+// static char *font = "DejaVuSansMono Nerd Font Mono:pixelsize=17:antialias=true:autohint=true";
+/* static char *font = "Hack Nerd Font Mono:pixelsize=17:antialias=true:autohint=true"; */
+// static char *font = "Hack:pixelsize=17:antialias=true:autohint=true";
+// static char *font = "LiterationMono Nerd Font Mono:pixelsize=17:antialias=true:autohint=true";
+static char *font = "Inconsolata Nerd Font Mono:pixelsize=17:antialias=true:autohint=true";
+// static char *font = "RobotoMono Nerd Font Mono:pixelsize=17:antialias=true:autohint=true";
+// static char *font = "SauceCodePro Nerd Font Mono:pixelsize=17:antialias=true:autohint=true";
+
 static int borderpx = 2;
 
 /*
