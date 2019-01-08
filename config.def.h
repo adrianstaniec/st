@@ -111,7 +111,7 @@ static const char *colorname[] = {
 	"#93a1a1",  /* 14: brcyan   */
 	"#fdf6e3",  /* 15: brwhite  */
 };
- 
+
 /* Terminal colors for alternate (light) palette */
 static const char *altcolorname[] = {
 	/* solarized light */
@@ -205,7 +205,6 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-	{ TERMMOD,              XK_I,           iso14755,       {.i =  0} },
 	{ ShiftMask,            XK_F6,          swapcolors,     {.i =  0} },
 	{ ShiftMask|Mod1Mask,   XK_D,           swapcolors,     {.i =  0} },
 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
