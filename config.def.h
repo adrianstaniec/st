@@ -209,6 +209,12 @@ static Shortcut shortcuts[] = {
 	{ ShiftMask|Mod1Mask,   XK_D,           swapcolors,     {.i =  0} },
 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
 	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
+	{ ControlMask,          XK_equal,       zoom,           {.f = +1} },
+	{ ControlMask,          XK_minus,       zoom,           {.f = -1} },
+	{ ControlMask,          XK_0,           zoomreset,      {.f =  0} },
+    /* for some reason the ones below dont work, but not a big deal */
+	{ ControlMask|ShiftMask,XK_equal,       zoom,           {.f = +1} },
+	{ ControlMask,          XK_plus,        zoom,           {.f = +1} },
 };
 
 /*
