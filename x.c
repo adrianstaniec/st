@@ -763,7 +763,7 @@ xloadcols(void)
 		for (cp = dc.col; cp < &dc.col[dc.collen]; ++cp)
 			XftColorFree(xw.dpy, xw.vis, xw.cmap, cp);
 	} else {
-        dc.collen = MAX(LEN(colorname), LEN(altcolorname));
+        dc.collen = MAX(LEN(colorname), 256);
         dc.col = xmalloc(dc.collen * sizeof(Color));
 	}
 
