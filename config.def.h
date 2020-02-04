@@ -178,14 +178,14 @@ static unsigned int defaultattr = 11;
  */
 static MouseShortcut mshortcuts[] = {
 	/* button               mask            string */
-	{ Button4,              XK_NO_MOD,      "\031" },
-	{ Button5,              XK_NO_MOD,      "\005" },
+	{ Button4,              ShiftMask,      "\031" },
+	{ Button5,              ShiftMask,      "\005" },
 };
 
 MouseKey mkeys[] = {
 	/* button               mask            function        argument */
-	{ Button4,              ShiftMask,      kscrollup,      {.i =  4} },
-	{ Button5,              ShiftMask,      kscrolldown,    {.i =  4} },
+	{ Button4,              XK_NO_MOD,      kscrollup,      {.i =  4} },
+	{ Button5,              XK_NO_MOD,      kscrolldown,    {.i =  4} },
 };
 
 /* Internal keyboard shortcuts. */
